@@ -1,0 +1,3 @@
+ID,Name,Email,Status
+101,Decoy Client A,decoy.a@honeypot.com,Active
+102,Decoy Client B,decoy.b@honeypot.com,Inactive

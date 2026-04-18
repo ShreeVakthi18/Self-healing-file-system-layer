@@ -1,0 +1,15 @@
+Release Notes - SHFSL 2.0 Demo
+Version: 2.0-alpha
+Date: 2025-10-07
+
+New Features:
+- Root-folder watcher (monitors all files in project root)
+- Snapshot versioning with metadata
+- Decoy classification and decoy alerts
+- Streamlit quick dashboard for demos
+- Auto-restore on deletion (if snapshot available)
+
+Known Limitations:
+- This demo is single-machine, not hardened for production.
+- Notifications (email/SMS) are not wired in this demo.
+

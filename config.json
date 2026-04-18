@@ -1,0 +1,12 @@
+{
+    "ADMIN_CONFIG": {
+        "SENDER_EMAIL": "vakthishree@gmail.com", 
+        "RECEIVER_EMAIL": "vakthishree@gmail.com",
+        "SENDER_PASSWORD": "kdyc zwch ujku gnzg",
+        "EMAIL_SERVER": "smtp.gmail.com",
+        "MONITORED_PATHS": [
+            "/path/to/server_inventory",
+            "/path/to/sensitive_docs"
+        ]
+    }
+}

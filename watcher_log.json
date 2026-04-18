@@ -1,0 +1,428 @@
+{
+    "API_Keys_Internal.json": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "DECOY",
+        "event": "modified",
+        "risk_outcome": "HIGH_DECOY_ALERT",
+        "last_event": "modified",
+        "risk_score": 100
+    },
+    "CEO_Contract.docx": {
+        "last_modified": "Sat Apr 18 14:15:22 2026",
+        "status": "DECOY",
+        "event": "modified",
+        "risk_outcome": "HIGH_DECOY_ALERT",
+        "last_event": "modified",
+        "risk_score": 100
+    },
+    "Finance_Report_Q3.xlsx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "DECOY",
+        "event": "modified",
+        "risk_outcome": "HIGH_DECOY_ALERT",
+        "last_event": "modified",
+        "risk_score": 100
+    },
+    "Client_Records.csv": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "DECOY",
+        "event": "modified",
+        "risk_outcome": "HIGH_DECOY_ALERT",
+        "last_event": "modified",
+        "risk_score": 100
+    },
+    "Production_Users.db": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "DECOY",
+        "event": "deleted",
+        "risk_outcome": "HIGH_DECOY_ALERT",
+        "last_event": "deleted",
+        "risk_score": 100
+    },
+    "server_settings.conf": {
+        "last_modified": "DELETED",
+        "status": "DECOY",
+        "event": "modified",
+        "risk_outcome": "HIGH_DECOY_ALERT",
+        "last_event": "modified"
+    },
+    "credentials_backup.zip": {
+        "last_modified": "Tue Oct  7 21:56:22 2025",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    },
+    "archived_emails.pst": {
+        "last_modified": "Thu Oct  9 21:20:16 2025",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 10
+    },
+    "User_Access_Log.xlsx": {
+        "last_modified": "DELETED",
+        "status": "SENSITIVE",
+        "event": "deleted",
+        "risk_outcome": "HIGH_SENSITIVE_DELETION",
+        "last_event": "deleted"
+    },
+    "Legal_Settlement_Docs.docx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 5
+    },
+    "HR_Disciplinary_Records.docx": {
+        "last_modified": "DELETED",
+        "status": "SENSITIVE",
+        "event": "deleted",
+        "risk_outcome": "HIGH_SENSITIVE_DELETION",
+        "last_event": "deleted"
+    },
+    "Patent_Application_Draft.docx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 10
+    },
+    "Executive_Meeting_Summary.docx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 10
+    },
+    "Q4_Budget_Forecast.xlsx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 10
+    },
+    "Vendor_Payment_Schedules.xlsx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    },
+    "Server_Inventory.xlsx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 90
+    },
+    "Employee_List.xlsx": {
+        "last_modified": "Fri Apr 17 13:43:13 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 15
+    },
+    "Database_Schema.sql": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 10
+    },
+    "app_config.ini": {
+        "last_modified": "Thu Oct  9 21:20:16 2025",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 10
+    },
+    "Full_Backup_2025.zip": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 10
+    },
+    "ProjectPlan.docx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 5
+    },
+    "Roadmap_2025.docx": {
+        "last_modified": "DELETED",
+        "status": "SENSITIVE",
+        "event": "deleted",
+        "risk_outcome": "HIGH_SENSITIVE_DELETION",
+        "last_event": "deleted",
+        "risk_score": 85
+    },
+    "Company_Policy_Manual.docx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 10
+    },
+    "Onboarding_Checklist.docx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 5
+    },
+    "meeting_transcript.txt": {
+        "last_modified": "Thu Oct  9 21:20:16 2025",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 10
+    },
+    "server_log_2025-10.log": {
+        "last_modified": "Thu Oct  9 21:20:16 2025",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    },
+    "Server_Inventory - Copy.xlsx": {
+        "last_modified": "Thu Oct  9 23:33:56 2025",
+        "status": "SENSITIVE",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 10
+    },
+    "Server_Inventory_lock.xlsx": {
+        "last_modified": "DELETED",
+        "status": "REAL",
+        "event": "deleted",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "deleted"
+    },
+    "Server_Inventory lock.xlsx": {
+        "last_modified": "DELETED",
+        "status": "REAL",
+        "event": "deleted",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "deleted"
+    },
+    "Server_Inventory - Copy.lock (3).xlsx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 5
+    },
+    "Server_Inventory - Copy.lock (4).xlsx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 5
+    },
+    "Server_Inventory - Copy.lock 1.xlsx": {
+        "last_modified": "Thu Oct  9 21:20:16 2025",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "HIGH_RANSOMWARE_ROLLBACK",
+        "last_event": "modified"
+    },
+    "Server_Inventory - Copy.lock 2.xlsx": {
+        "last_modified": "DELETED",
+        "status": "REAL",
+        "event": "deleted",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "deleted",
+        "risk_score": 10
+    },
+    "Server_Inventory - Copy.lock (2).xlsx": {
+        "last_modified": "Thu Oct  9 21:20:16 2025",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    },
+    "Server_Inventory.lock (2).xlsx": {
+        "last_modified": "Thu Oct  9 21:20:16 2025",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    },
+    "Server_Inventory - Copy.lock (5).xlsx": {
+        "last_modified": "DELETED",
+        "status": "REAL",
+        "event": "deleted",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "deleted",
+        "risk_score": 10
+    },
+    "Server_Inventory.lock5.xlsx": {
+        "last_modified": "Thu Oct  9 21:20:16 2025",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    },
+    "CEO_Contract.docx.20251010_101407_774173": {
+        "last_modified": "DELETED",
+        "status": "REAL",
+        "event": "deleted",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "deleted"
+    },
+    "CEO_Contract (3).docx": {
+        "last_modified": "Sat Apr 18 13:41:35 2026",
+        "status": "DECOY",
+        "event": "deleted",
+        "risk_outcome": "HIGH_DECOY_ALERT",
+        "last_event": "deleted"
+    },
+    "Server_Inventory.lock4.xlsx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 5
+    },
+    "dashboard.py": {
+        "last_modified": "Sat Oct 11 01:09:33 2025",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    },
+    "Employee_List.lock.xlsx": {
+        "last_modified": "DELETED",
+        "status": "REAL",
+        "event": "deleted",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "deleted",
+        "risk_score": 100
+    },
+    "Server_Inventory - Copy (2).xlsx": {
+        "last_modified": "DELETED",
+        "status": "REAL",
+        "event": "deleted",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "deleted"
+    },
+    "Server_Inventory - Copy.lock 7.xlsx": {
+        "last_modified": "Thu Oct  9 21:20:16 2025",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    },
+    "CEO_Contract (4).docx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "DECOY",
+        "event": "modified",
+        "risk_outcome": "HIGH_DECOY_ALERT",
+        "last_event": "modified",
+        "risk_score": 100
+    },
+    "Server_Inventory .lock 8.xlsx": {
+        "last_modified": "Thu Oct  9 21:20:16 2025",
+        "status": "REAL",
+        "event": "deleted",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "deleted"
+    },
+    "Server_Inventory.lock (3).xlsx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    },
+    "config_backup.json": {
+        "last_modified": "Tue Oct  7 21:56:22 2025",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    },
+    "create_office_file.py": {
+        "last_modified": "Thu Oct  9 21:10:32 2025",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 5
+    },
+    "release_notes.txt": {
+        "last_modified": "Tue Oct  7 21:56:22 2025",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    },
+    "Server_Inventory.lock (4).xlsx": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 5
+    },
+    "Server_Inventory - Copy.lock.xlsx": {
+        "last_modified": "DELETED",
+        "status": "REAL",
+        "event": "deleted",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "deleted",
+        "risk_score": 5
+    },
+    "Server_Inventory.lock.xlsx": {
+        "last_modified": "DELETED",
+        "status": "REAL",
+        "event": "deleted",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "deleted",
+        "risk_score": 100
+    },
+    "README.txt": {
+        "last_modified": "Fri Apr 17 13:41:58 2026",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 5
+    },
+    "dashboard-DESKTOP-IV3EM05.py": {
+        "last_modified": "Fri Apr 17 21:39:03 2026",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified",
+        "risk_score": 5
+    },
+    "README.md": {
+        "last_modified": "Fri Apr 17 20:54:28 2026",
+        "status": "REAL",
+        "event": "modified",
+        "risk_outcome": "LOW_NORMAL_ACTIVITY",
+        "last_event": "modified"
+    }
+}

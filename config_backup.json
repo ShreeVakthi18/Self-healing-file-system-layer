@@ -1,0 +1,35 @@
+{
+  "project": "SHFSL 2.0",
+  "version": "2.0",
+  "settings": {
+    "monitor_root": true,
+    "snapshot_folder": "snapshots",
+    "snapshot_retention_days": 30,
+    "alert_admin_email": "admin@company.com",
+    "alert_on_decoy": true,
+    "auto_rollback_enabled": true,
+    "rapid_delete_threshold": 3
+  },
+  "users": [
+    {
+      "username": "admin",
+      "roles": [
+        "admin",
+        "operator"
+      ]
+    },
+    {
+      "username": "sec_officer",
+      "roles": [
+        "security"
+      ]
+    },
+    {
+      "username": "dev",
+      "roles": [
+        "developer"
+      ]
+    }
+  ],
+  "generated_at": "2025-10-07T21:56:22.463941"
+}
