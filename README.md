@@ -10,7 +10,7 @@
 
 <br>
 
-**The Unsolved Problem in File Integrity Protection:**
+###The Unsolved Problem in File Integrity Protection:
 
 Modern data protection systems are designed to detect and log security events, not to reverse their impact. Once an attack reaches the file system, whether through ransomware or malicious insider activity, damage is often already in progress or completed.
 
