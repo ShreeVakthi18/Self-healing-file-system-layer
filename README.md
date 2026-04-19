@@ -10,7 +10,7 @@
 
 <br>
 
-###The Unsolved Problem in File Integrity Protection:
+### The Unsolved Problem in File Integrity Protection:
 
 Modern data protection systems are designed to detect and log security events, not to reverse their impact. Once an attack reaches the file system, whether through ransomware or malicious insider activity, damage is often already in progress or completed.
 
@@ -28,7 +28,7 @@ Conventional file systems execute file operations without contextual awareness, 
 **Insider Threat Limitations:**
 Authorized users can perform destructive actions using valid credentials. Such operations often bypass traditional detection systems until after data loss has already occurred.
 
-**Solution Overview:**
+### Solution Overview:
 
 
 The Self-Healing File System Layer (SHFSL 2.0) is a proactive, user-space security daemon designed to transform a passive file system into an active, self-defending infrastructure. Unlike traditional reactive security, this system focuses on immediate restoration of data integrity the moment a threat is identified.
@@ -49,7 +49,7 @@ The system operates through four core technical pillars:
 
 **Live Visualization & Alerting:** A centralized dashboard provides a real-time heatmap of file system health, while an automated administrative module dispatches high-priority SMTP alerts to ensure the security team is fully informed while the system heals itself.
 
-**Overall System Architecture**
+### Overall System Architecture
 
 
 <img width="966" height="806" alt="Screenshot 2026-04-18 214118" src="https://github.com/user-attachments/assets/316e8fcc-6a66-403a-8a13-c707a8405a8f" />
@@ -61,10 +61,10 @@ Detected anomalies trigger the Rollback Engine, which instantly restores comprom
 A centralized Streamlit Command Center provides live threat telemetry and risk scoring, while the SMTP Module ensures immediate administrative escalation.
 
 
-**System Modules**
+### System Modules
 
 
-**1. File System Monitor — The "Watcher"**
+## 1. File System Monitor — The "Watcher"
 
 **Core Function:**
 The Watcher is the first layer of SHFSL 2.0, built to observe file system activity as it happens rather than after the fact. It runs continuously over all monitored directories, capturing every file operation in real time. Creation, modification, deletion, and movement events are intercepted immediately and forwarded for analysis, allowing the system to respond to suspicious behavior without delay, including ransomware-style activity.
@@ -108,7 +108,7 @@ The system triggers rollback using the latest immutable snapshot, restoring the 
 **Architecture:**
 <img width="475" height="694" alt="Screenshot 2026-04-18 204329" src="https://github.com/user-attachments/assets/8a5a31e1-8b43-4f8a-8500-21bbe98efff7" />
 
-**Pattern Detection & Rollback Engine (The "Logic")**
+## Pattern Detection & Rollback Engine (The "Logic")
 
 **Core Function:**
 The Logic Engine is the brain of SHFSL 2.0. It reads the live event stream from the Watcher to tell apart normal user activity from a real attack. The moment a threat is confirmed, it acts immediately — neutralizing the damage and restoring the file without waiting for anyone to step in.
@@ -168,7 +168,7 @@ A user accidentally deletes a core database file. The system holds back from for
 **Architecture:**
 <img width="739" height="695" alt="Screenshot 2026-04-18 211510" src="https://github.com/user-attachments/assets/d616d200-b8ff-41af-9043-5726b8b389ee" />
 
-**Versioning System (The "Snapshots")**
+## Versioning System (The "Snapshots")
 
 **Core Function**
 
@@ -201,7 +201,7 @@ Pruning runs silently in the background, archiving older versions automatically 
 <img width="471" height="613" alt="Screenshot 2026-04-18 213421" src="https://github.com/user-attachments/assets/03c213d9-cda6-4230-9367-1350b92c51db" />
 
 
-**4. Decoy File System (The "Honeypot")**
+## 4. Decoy File System (The "Honeypot")
 
 **Core Function**
 The Decoy File System is the tripwire of SHFSL 2.0. Honeypot files with names that mimic real critical assets — `CEO_Contract.docx`, `API_Keys_Internal.json`, `Finance_Report_Q3.xlsx` — are planted across monitored directories. They serve no operational purpose whatsoever. Their only job is to get touched, because anyone who does is immediately confirmed as a threat.
@@ -237,7 +237,7 @@ The tampered file is deleted, the clean original is restored from the latest sna
 **Architecture:**
 <img width="425" height="768" alt="Screenshot 2026-04-18 213605" src="https://github.com/user-attachments/assets/9146505e-c088-41ac-bb69-1b145f817b56" />
 
-**Administrator Module**
+## Administrator Module
 
 **Core Function**
 The Administrator Module is the communication hub of SHFSL 2.0. While the rest of the system operates autonomously, this module ensures the right person is informed the moment something critical happens — delivering precise, actionable alerts so the administrator is never left in the dark, regardless of where they are.
@@ -270,7 +270,7 @@ The Rollback Engine deletes the malicious file and restores the clean original f
 **Architecture**
 <img width="846" height="755" alt="Screenshot 2026-04-18 213713" src="https://github.com/user-attachments/assets/4d64b3b8-f01c-4a1d-9ee2-75b3a62eae81" />
 
-**Visualization & Dashboard Layer**
+## Visualization & Dashboard Layer
 
 **Core Function**
 The Dashboard is the control room of SHFSL 2.0. Every detection, rollback, and alert that happens silently under the hood is surfaced here in real time — giving the administrator a live, visual overview of everything the system is doing. Nothing happens in the dark.
@@ -300,7 +300,7 @@ Ransomware begins renaming files in the monitored directory during off-hours wit
 **Response**
 The alert banner shifts to flashing red, the live grid updates with the malicious filename highlighted in deep red, the activity log prepends a confirmed rollback entry, and the ransomware counter in system metrics increments — all within the next two-second refresh cycle, giving the administrator a complete picture of exactly what happened and what the system did about it.
 
-**Workflow**
+### Workflow
 
 ## Watcher Initialization
 
