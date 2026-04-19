@@ -594,18 +594,23 @@ Helps surface files and directories being repeatedly targeted beyond individual 
 
 ## Future Enhancements
 
-**ML-based Threat Detection:**
-replace fixed rules with trained models capable of recognizing novel and zero-day attack patterns
-**Blockchain Snapshot Storage:**
-store rollback history on an immutable blockchain ledger for tamper-proof auditability
-**Cloud Integration:**
-extend snapshot storage to AWS S3, Azure Blob, and GCP Cloud Storage for distributed environments
-**Cross-Platform Support:** 
-expand from Linux to Windows NTFS and macOS HFS+ file systems
-**User Behavior Analytics (UBA):**
-track per-user file access patterns to detect insider threats through behavioral deviation
-**Automated Incident Response:** 
-trigger predefined containment actions (directory isolation, process kill) without waiting for manual approval
+- **ML-Based Threat Detection**  
+  Replace fixed rule-based logic with trained models capable of identifying novel and zero-day attack patterns.
+
+- **Blockchain Snapshot Storage**  
+  Store rollback history on an immutable blockchain ledger for tamper-proof auditability and forensic integrity.
+
+- **Cloud Integration**  
+  Extend snapshot storage support to AWS S3, Azure Blob Storage, and Google Cloud Platform for scalable distributed environments.
+
+- **Cross-Platform Support**  
+  Expand compatibility from Linux to Windows (NTFS) and macOS (HFS+) file systems.
+
+- **User Behavior Analytics (UBA)**  
+  Track per-user file access patterns to detect insider threats through behavioral deviation and anomaly detection.
+
+- **Automated Incident Response**  
+  Enable automated containment actions such as directory isolation and process termination without requiring manual approval.
 
 ## Getting Started
 
