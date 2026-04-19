@@ -11,6 +11,7 @@
 <br>
 
 **The Unsolved Problem in File Integrity Protection:**
+
 Modern data protection systems are designed to detect and log security events, not to reverse their impact. Once an attack reaches the file system, whether through ransomware or malicious insider activity, damage is often already in progress or completed.
 
 The core limitations of existing systems are:
@@ -28,6 +29,8 @@ Conventional file systems execute file operations without contextual awareness, 
 Authorized users can perform destructive actions using valid credentials. Such operations often bypass traditional detection systems until after data loss has already occurred.
 
 **Solution Overview:**
+
+
 The Self-Healing File System Layer (SHFSL 2.0) is a proactive, user-space security daemon designed to transform a passive file system into an active, self-defending infrastructure. Unlike traditional reactive security, this system focuses on immediate restoration of data integrity the moment a threat is identified.
 
 The system operates through four core technical pillars:
@@ -48,6 +51,7 @@ The system operates through four core technical pillars:
 
 **Overall System Architecture**
 
+
 <img width="966" height="806" alt="Screenshot 2026-04-18 214118" src="https://github.com/user-attachments/assets/316e8fcc-6a66-403a-8a13-c707a8405a8f" />
 
 The system utilizes a high-speed Watchdog Monitor to intercept real-time I/O events, passing them through an Intelligence Core that identifies ransomware and insider threats.
@@ -58,6 +62,7 @@ A centralized Streamlit Command Center provides live threat telemetry and risk s
 
 
 **System Modules**
+
 
 **1. File System Monitor — The "Watcher"**
 
