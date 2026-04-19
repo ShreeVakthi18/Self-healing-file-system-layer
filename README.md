@@ -108,7 +108,7 @@ The system triggers rollback using the latest immutable snapshot, restoring the 
 **Architecture:**
 <img width="475" height="694" alt="Screenshot 2026-04-18 204329" src="https://github.com/user-attachments/assets/8a5a31e1-8b43-4f8a-8500-21bbe98efff7" />
 
-## Pattern Detection & Rollback Engine (The "Logic")
+## 2.Pattern Detection & Rollback Engine (The "Logic")
 
 **Core Function:**
 The Logic Engine is the brain of SHFSL 2.0. It reads the live event stream from the Watcher to tell apart normal user activity from a real attack. The moment a threat is confirmed, it acts immediately — neutralizing the damage and restoring the file without waiting for anyone to step in.
@@ -168,7 +168,7 @@ A user accidentally deletes a core database file. The system holds back from for
 **Architecture:**
 <img width="739" height="695" alt="Screenshot 2026-04-18 211510" src="https://github.com/user-attachments/assets/d616d200-b8ff-41af-9043-5726b8b389ee" />
 
-## Versioning System (The "Snapshots")
+## 3.Versioning System (The "Snapshots")
 
 **Core Function**
 
@@ -237,7 +237,7 @@ The tampered file is deleted, the clean original is restored from the latest sna
 **Architecture:**
 <img width="425" height="768" alt="Screenshot 2026-04-18 213605" src="https://github.com/user-attachments/assets/9146505e-c088-41ac-bb69-1b145f817b56" />
 
-## Administrator Module
+## 5.Administrator Module
 
 **Core Function**
 The Administrator Module is the communication hub of SHFSL 2.0. While the rest of the system operates autonomously, this module ensures the right person is informed the moment something critical happens — delivering precise, actionable alerts so the administrator is never left in the dark, regardless of where they are.
@@ -270,7 +270,7 @@ The Rollback Engine deletes the malicious file and restores the clean original f
 **Architecture**
 <img width="846" height="755" alt="Screenshot 2026-04-18 213713" src="https://github.com/user-attachments/assets/4d64b3b8-f01c-4a1d-9ee2-75b3a62eae81" />
 
-## Visualization & Dashboard Layer
+## 6.Visualization & Dashboard Layer
 
 **Core Function**
 The Dashboard is the control room of SHFSL 2.0. Every detection, rollback, and alert that happens silently under the hood is surfaced here in real time — giving the administrator a live, visual overview of everything the system is doing. Nothing happens in the dark.
@@ -600,6 +600,37 @@ Helps surface files and directories being repeatedly targeted beyond individual 
 **Cross-Platform Support** — expand from Linux to Windows NTFS and macOS HFS+ file systems
 **User Behavior Analytics (UBA)** — track per-user file access patterns to detect insider threats through behavioral deviation
 **Automated Incident Response** — trigger predefined containment actions (directory isolation, process kill) without waiting for manual approval
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/ShreeVakthi18/Self-healing-file-system-layer.git
+cd Self-healing-file-system-layer
+
+# Install dependencies
+pip install watchdog streamlit
+
+# Configure your system
+# Open config.json and set your credentials
+{
+  "ADMIN_CONFIG": {
+    "SENDER_EMAIL": "admin.security@shfsl.com",
+    "RECEIVER_EMAIL": "vakthishree@gmail.com",
+    "SENDER_PASSWORD": "your-gmail-app-password",
+    "EMAIL_SERVER": "smtp.gmail.com"
+  }
+}
+
+# Start the watcher
+python watcher.py
+
+# Launch the live dashboard in a second terminal
+streamlit run dashboard.py
+```
+
+---
+
 
 ## Author
 
