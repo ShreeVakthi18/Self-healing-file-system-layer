@@ -313,6 +313,14 @@ No detection event was triggered. No log entry was created, and no administrativ
 | TC-05 | Administrative Email Alert Validation | ✅ PASS |
 | TC-06 |  Out-of-Scope File Modification | ✅ PASS |
 
+## Demo Video
+
+The following demonstration shows SHFSL 2.0 detecting ransomware-style file rename activity and honeypot/decoy tampering events.
+
+[SHFSL 2.0 Demo Video](https://youtu.be/5BL_aVwoSUo)
+
+[SHFSL 2.0 Demo Video](https://youtu.be/0ssDohKnEdo)
+
 
 
 > **Note:** During TC-04, the rollback workflow was triggered successfully. Automatic file restoration was temporarily blocked because the target file was locked by another application (`WinError 32`). The framework retried restoration, generated an administrator alert, and safely resumed monitoring. This behavior was documented as an operational limitation rather than a functional failure.
