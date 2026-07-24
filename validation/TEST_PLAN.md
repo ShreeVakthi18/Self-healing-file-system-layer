@@ -29,7 +29,7 @@ Modified `Company_Policy_Manual.docx` by adding sample text and saving the file.
 - Event logged successfully
 
 ### Evidence
-Screenshot: `screenshots/TC01_Modification.png`
+Screenshot: `screenshots/TC01_Detection.png`
 
 ### Status
 ✅ PASS
@@ -74,7 +74,7 @@ Deleted the monitored sensitive file `Employee_List.xlsx` from the protected dir
 
 **Screenshot**
 
-`validation/screenshots/TC02_Deletion.png`
+`validation/screenshots/TC02_deletion.png`
 
 ### Status
 
@@ -120,7 +120,7 @@ Renamed the monitored file `ProjectPlan.docx` to `ProjectPlan.lock.docx` to simu
 
 **Screenshot**
 
-`validation/screenshots/TC03_modification.png`
+![TC-03 File Modification Detection](validation/screenshots/TC03_modification.png)
 
 ### Status
 
