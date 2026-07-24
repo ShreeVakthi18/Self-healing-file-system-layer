@@ -29,7 +29,7 @@ Modified `Company_Policy_Manual.docx` by adding sample text and saving the file.
 - Event logged successfully
 
 ### Evidence
-Screenshot: `screenshots/TC01_Detection.png`
+![TC-02 Screenshot](screenshots/TC02_deletion.png)
 
 ### Status
 ✅ PASS
