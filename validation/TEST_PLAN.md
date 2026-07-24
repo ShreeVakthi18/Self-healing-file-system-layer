@@ -41,9 +41,16 @@ SNAPSHOT] Created: Company_Policy_Manual. docx . 20260724_202010_235742
 ```
 **Screenshot**
 
-![TC-01 Screenshot](screenshots/TC01_Before_Modification.png)
-![TC-01 Screenshot](screenshots/TC01_Detection.png)
-![TC-01 Screenshot](screenshots/TC01_Modification.png)
+## TC-01: Sensitive File Modification Detection
+
+### 1. Original File State (Before Modification)
+![Original File State](screenshots/TC01_Before_Modification.png)
+
+### 2. File Modification Event
+![File Modification](screenshots/TC01_Modification.png)
+
+### 3. SHFSL Detection Alert
+![Detection Alert](screenshots/TC01_Detection.png)
 
 
 ### Status
@@ -89,9 +96,13 @@ Deleted the monitored sensitive file `Employee_List.xlsx` from the protected dir
 
 **Screenshot**
 
-![TC-02 Screenshot](screenshots/TC02_deletion.png)
-![TC-02 Screenshot](screenshots/TC02_snapshot.png)
+## TC-02: Sensitive File Deletion Detection
 
+### 1. Sensitive File Deletion Event
+![File Deletion Event](screenshots/TC02_deletion.png)
+
+### 2. Snapshot-Based Recovery Data
+![Snapshot Recovery Data](screenshots/TC02_snapshot.png)
 
 
 ### Status
@@ -138,9 +149,16 @@ Renamed the monitored file `ProjectPlan.docx` to `ProjectPlan.lock.docx` to simu
 
 **Screenshot**
 
-![TC-03 Screenshot](screenshots/TC03_detection.png)
-![TC-03 Screenshot](screenshots/TC03_snapshot.png)
-![TC-03 Screenshot](screenshots/TC03_modification.png)
+## TC-03: Ransomware-Style File Rename Detection
+
+### 1. Suspicious File Rename / Ransomware Simulation
+![Ransomware Style File Rename](screenshots/TC03_modification.png)
+
+### 2. SHFSL Rename Detection Alert
+![Rename Detection Alert](screenshots/TC03_detection.png)
+
+### 3. Snapshot Capture for Recovery
+![Snapshot Recovery Data](screenshots/TC03_snapshot.png)
 
 ### Status
 
@@ -191,9 +209,16 @@ RESULT → HIGH_DECOY_ALERT
 
 **Screenshot**
 
-![TC-04 Screenshot](screenshots/TC04_decoy.png)
-![TC-04 Screenshot](screenshots/TC04_detection.png)
-![TC-04 Screenshot](screenshots/TC04_Snapshot.png)
+## TC-04: Honeypot Tampering Detection & Rollback
+
+### 1. Honeypot File (Decoy) Deployment
+![Honeypot Decoy File](screenshots/TC04_decoy.png)
+
+### 2. Honeypot Tampering Detection Alert
+![Honeypot Tampering Detection](screenshots/TC04_detection.png)
+
+### 3. Snapshot-Based Rollback Recovery
+![Rollback Recovery Snapshot](screenshots/TC04_Snapshot.png)
 
 
 ### Status
@@ -243,7 +268,10 @@ CRITICAL: Decoy Honeypot Tampered — CEO_Contract.docx
 
 **Screenshot**
 
-![TC-05 Screenshot](screenshots/TC05_email.jpeg)
+## TC-05: Administrative Email Alert Validation
+
+### 1. Security Alert Email Notification
+![Administrative Email Alert](screenshots/TC05_email.jpeg)
 
 ### Status
 
