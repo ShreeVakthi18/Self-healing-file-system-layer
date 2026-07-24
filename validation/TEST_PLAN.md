@@ -278,6 +278,25 @@ CRITICAL: Decoy Honeypot Tampered — CEO_Contract.docx
 ✅ PASS
 ---
 
+## TC-06: Out-of-Scope File Modification (False Positive Check)
+
+### Scenario
+A file (`Notes.txt`) located outside the SHFSL monitored directory was modified.
+
+### Expected Result
+No security event should be generated because the file is outside the monitoring scope.
+
+### Actual Result
+No detection event was triggered. No log entry was created, and no administrative alert was sent.
+
+### Evidence
+![Out-of-Scope File Modification Check](screenshots/TC06_outside_modification.png)
+![Out-of-Scope File Modification Check](screenshots/TC06_no_entry.png)
+
+
+### Status
+✅ PASS
+
 # Validation Summary
 
 | Test ID | Description | Status |
