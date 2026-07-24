@@ -290,9 +290,14 @@ No security event should be generated because the file is outside the monitoring
 No detection event was triggered. No log entry was created, and no administrative alert was sent.
 
 ### Evidence
-![Out-of-Scope File Modification Check](screenshots/TC06_outside_modification.png)
-![Out-of-Scope File Modification Check](screenshots/TC06_no_entry.png)
 
+## TC-06: Out-of-Scope File Modification (False Positive Check)
+
+### 1. Modification of File Outside Monitored Directory
+![Out-of-Scope File Modification](screenshots/TC06_outside_modification.png)
+
+### 2. Verification of No Detection Event Generated
+![No Detection Entry](screenshots/TC06_no_entry.png)
 
 ### Status
 ✅ PASS
@@ -304,8 +309,11 @@ No detection event was triggered. No log entry was created, and no administrativ
 | TC-01 | Sensitive File Modification Detection | ✅ PASS |
 | TC-02 | Sensitive File Deletion Detection | ✅ PASS |
 | TC-03 | Ransomware-Style File Rename Detection | ✅ PASS |
-| TC-04 | Honeypot Tampering Detection & Rollback | ✅ PASS* |
+| TC-04 | Honeypot Tampering Detection & Rollback | ✅ PASS |
 | TC-05 | Administrative Email Alert Validation | ✅ PASS |
+| TC-06 |  Out-of-Scope File Modification | ✅ PASS |
+
+
 
 > **Note:** During TC-04, the rollback workflow was triggered successfully. Automatic file restoration was temporarily blocked because the target file was locked by another application (`WinError 32`). The framework retried restoration, generated an administrator alert, and safely resumed monitoring. This behavior was documented as an operational limitation rather than a functional failure.
 
