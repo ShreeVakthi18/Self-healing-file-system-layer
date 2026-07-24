@@ -29,7 +29,22 @@ Modified `Company_Policy_Manual.docx` by adding sample text and saving the file.
 - Event logged successfully
 
 ### Evidence
-![TC-02 Screenshot](screenshots/TC02_deletion.png)
+
+**Terminal Output**
+
+```text
+EVENT: MODIFIED > Company_Policy_Manual. docx
+[20: 20: 10.204] STATUS: Company_Policy_Manual. docx classified as 'SENSITIVE'
+SNAPSHOT] Created: Company_Policy_Manual. docx . 20260724_202010_235742
+[RISK] A Company_Policy_Manual. docx cumulative risk score: 100/100
+[20: 20:10.204] RESULT: Company_Policy_Manual. docx > LOW_NORMAL_ACTIVITY (score: 100/100)
+```
+**Screenshot**
+
+![TC-01 Screenshot](screenshots/TC01_Before_Modification.png)
+![TC-01 Screenshot](screenshots/TC01_Detection.png)
+![TC-01 Screenshot](screenshots/TC01_Modification.png)
+
 
 ### Status
 ✅ PASS
@@ -74,7 +89,10 @@ Deleted the monitored sensitive file `Employee_List.xlsx` from the protected dir
 
 **Screenshot**
 
-`validation/screenshots/TC02_deletion.png`
+![TC-02 Screenshot](screenshots/TC02_deletion.png)
+![TC-02 Screenshot](screenshots/TC02_snapshot.png)
+
+
 
 ### Status
 
@@ -120,7 +138,9 @@ Renamed the monitored file `ProjectPlan.docx` to `ProjectPlan.lock.docx` to simu
 
 **Screenshot**
 
-<img src="validation/screenshots/TC03_modification.png" alt="TC-03 Execution Screenshot" width="800" />
+![TC-03 Screenshot](screenshots/TC03_detection.png)
+![TC-03 Screenshot](screenshots/TC03_snapshot.png)
+![TC-03 Screenshot](screenshots/TC03_modification.png)
 
 ### Status
 
@@ -171,7 +191,10 @@ RESULT → HIGH_DECOY_ALERT
 
 **Screenshot**
 
-`validation/screenshots/TC04_Honeypot.png`
+![TC-04 Screenshot](screenshots/TC04_decoy.png)
+![TC-04 Screenshot](screenshots/TC04_detection.png)
+![TC-04 Screenshot](screenshots/TC04_Snapshot.png)
+
 
 ### Status
 
@@ -220,7 +243,7 @@ CRITICAL: Decoy Honeypot Tampered — CEO_Contract.docx
 
 **Screenshot**
 
-`validation/screenshots/TC05_email.png`
+![TC-05 Screenshot](screenshots/TC05_email.png)
 
 ### Status
 
