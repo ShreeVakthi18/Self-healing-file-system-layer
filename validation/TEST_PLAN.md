@@ -243,7 +243,7 @@ CRITICAL: Decoy Honeypot Tampered — CEO_Contract.docx
 
 **Screenshot**
 
-![TC-05 Screenshot](screenshots/TC05_email.png)
+![TC-05 Screenshot](screenshots/TC05_email.jpeg)
 
 ### Status
 
