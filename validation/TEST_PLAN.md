@@ -120,7 +120,7 @@ Renamed the monitored file `ProjectPlan.docx` to `ProjectPlan.lock.docx` to simu
 
 **Screenshot**
 
-![TC-03 File Modification Detection](validation/screenshots/TC03_modification.png)
+<img src="validation/screenshots/TC03_modification.png" alt="TC-03 Execution Screenshot" width="800" />
 
 ### Status
 
