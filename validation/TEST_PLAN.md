@@ -316,6 +316,8 @@ No detection event was triggered. No log entry was created, and no administrativ
 
 
 > **Note:** During TC-04, the rollback workflow was triggered successfully. Automatic file restoration was temporarily blocked because the target file was locked by another application (`WinError 32`). The framework retried restoration, generated an administrator alert, and safely resumed monitoring. This behavior was documented as an operational limitation rather than a functional failure.
+
+
 > **Classification Note:** Files are classified as 'SENSITIVE' based on [filename keyword 
 matching against a predefined list / folder location / file extension rule — 
 whatever your actual logic is]. Honeypot files are pre-registered by path and 
