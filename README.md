@@ -1,14 +1,6 @@
 # SHFSL 2.0 — Self Healing File System Layer
 **Intercept. Detect. Rollback. Zero-latency file protection with live Streamlit visualization.**
 
-<br>
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Watchdog](https://img.shields.io/badge/Watchdog-Real--Time-00C896?style=for-the-badge)
-![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-
-<br>
 
 ### The Unsolved Problem in File Integrity Protection:
 
@@ -299,6 +291,19 @@ Ransomware begins renaming files in the monitored directory during off-hours wit
 
 **Response**
 The alert banner shifts to flashing red, the live grid updates with the malicious filename highlighted in deep red, the activity log prepends a confirmed rollback entry, and the ransomware counter in system metrics increments — all within the next two-second refresh cycle, giving the administrator a complete picture of exactly what happened and what the system did about it.
+
+## Demo Video
+
+See SHFSL 2.0 in action, including:
+
+- Real-Time File System Monitoring
+- Decoy File Breach Detection
+- Sensitive File Tampering Detection
+- Ransomware Pattern Detection
+- Automated Rollback & File Recovery
+  Live Protection Demonstration
+
+**Watch the Project Demo:** [SHFSL2.0 Demo](https://youtu.be/u56oDC10oNM)
 
 ### Workflow
 
