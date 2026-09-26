@@ -1,1 +1,7 @@
-
+{
+    "ADMIN_CONFIG": {
+        "SENDER_EMAIL": "your-email@gmail.com",
+        "RECEIVER_EMAIL": "alerts-recipient@gmail.com",
+        "EMAIL_SERVER": "smtp.gmail.com"
+    }
+}
