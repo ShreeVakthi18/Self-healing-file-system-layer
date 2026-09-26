@@ -20,7 +20,7 @@ except json.JSONDecodeError:
 
 SENDER_EMAIL    = CONFIG.get("SENDER_EMAIL",   "admin.security@shfsl.com")
 RECEIVER_EMAIL  = CONFIG.get("RECEIVER_EMAIL", "emergency.alerts@yourcompany.com")
-SENDER_PASSWORD = CONFIG.get("SENDER_PASSWORD", "PASSWORD_MISSING")
+SENDER_PASSWORD = CONFIG.get("SHFSL_SENDER_PASSWORD", "PASSWORD_MISSING")
 SMTP_SERVER     = CONFIG.get("EMAIL_SERVER",   "smtp.gmail.com")
 SMTP_PORT       = 587
 
